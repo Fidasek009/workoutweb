@@ -1,10 +1,25 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/pages/Home';
+import HowTo from './components/pages/HowTo';
+import SignUp from './components/pages/SignUp';
+import Highlights from './components/pages/Highlights';
 
 function App() {
   return (
-    <div className="App">
-      <h1>React 18 Alpha</h1>
-    </div>
+    <>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' exact Component={Home} />
+        <Route path='/how-to' exact Component={HowTo} />
+        <Route path='/highlights' exact Component={Highlights} />
+        <Route path='/sign-up' exact Component={SignUp} />
+      </Routes>
+    </Router>
+      
+    </>
   );
 }
 
