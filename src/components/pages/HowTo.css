@@ -32,3 +32,13 @@
 .howto-text ul {
     margin-left: 50px;
 }
+
+@media screen and (max-width: 960px) {
+    .howto-text h2 {
+        font-size: 40px;
+    }
+    
+    .howto-text p, .howto-text h3 {
+        font-size: 20px;
+    }
+}

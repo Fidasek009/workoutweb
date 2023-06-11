@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     height: 80px;
+    overflow: hidden;
 }
 
 .navbar-logo {
@@ -26,6 +27,7 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    margin-right: 10vw;
 }
 
 .fa-typo3 {
