@@ -1,0 +1,30 @@
+.howto {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('/public/images/how-to-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+.howto-text {
+    width: 80%;
+    background-color: #fff;
+    opacity: 0.8;
+    color: #000;
+    border-radius: 20px;
+    position: relative;
+}
+  
+.howto-text h2 {
+    padding: 32px;
+    font-size: 50px;
+}
+  
+.howto-text p, .howto-text h3 {
+    padding: 32px;
+    font-size: 30px;
+}
