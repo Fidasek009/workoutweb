@@ -1,6 +1,5 @@
 import React from 'react'
 import './Bros.css'
-import Footer from '../Footer'
 import Bro from '../Bro'
 
 function Bros() {
@@ -12,7 +11,6 @@ function Bros() {
           <Bro user="jacob_yzol"/>
         </ul>
       </div>
-      <Footer />
     </>
   )
 }

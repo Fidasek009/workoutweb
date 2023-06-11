@@ -1,7 +1,6 @@
 import React from 'react'
-import '../../App.css'
+// import '../../App.css'
 import './HowTo.css'
-import Footer from '../Footer'
 import Steps from '../Steps'
 
 export default function Howto() {
@@ -25,7 +24,6 @@ export default function Howto() {
         </div>
       </div>
       <Steps />
-      <Footer />
     </>
   )
 }

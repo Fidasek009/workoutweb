@@ -1,8 +1,7 @@
 import React from 'react'
-import '../../App.css'
+// import '../../App.css'
 import LandingPage from '../LandingPage'
 import Cards from '../Cards'
-import Footer from '../Footer'
 
 
 function Home() {
@@ -10,7 +9,6 @@ function Home() {
     <>
       <LandingPage />
       {/* <Cards /> */}
-      <Footer />
     </>
   )
 }

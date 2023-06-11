@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
@@ -6,6 +6,8 @@ import HowTo from './components/pages/HowTo';
 import Bros from './components/pages/Bros';
 import SignUp from './components/pages/SignUp';
 import Highlights from './components/pages/Highlights';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -19,8 +21,8 @@ function App() {
         <Route path='/bros' exact Component={Bros} />
         <Route path='/sign-up' exact Component={SignUp} />
       </Routes>
+      <Footer />
     </Router>
-      
     </>
   );
 }
