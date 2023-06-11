@@ -19,7 +19,7 @@
 .steps-item {
     display: flex;
     box-shadow: 0 0 20px 20px #222;
-    background-color: #666;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
     margin: 25px;
     margin-bottom: 50px;
     border-radius: 50px;
@@ -35,12 +35,17 @@
 .steps-item h3 {
     margin: auto;
     padding: 20px;
+    font-size: 2vw;
 }
+
+/* .steps-item a {
+    text-decoration: none;
+    color: #fff;
+} */
 
 .steps-item img {
     position: relative;
     width: 50%;
-    border-radius: 50px;
 }
 
 .right {
@@ -66,6 +71,10 @@
 @media screen and (max-width: 960px) {
     .steps-item {
         flex-direction: column;
+    }
+
+    .steps-item h3 {
+        font-size: 4vw;
     }
 
     .steps-item img {

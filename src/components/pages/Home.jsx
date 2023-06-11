@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../App.css'
-import HeroSection from '../HeroSection'
+import LandingPage from '../LandingPage'
 import Cards from '../Cards'
 import Footer from '../Footer'
 
@@ -8,7 +8,7 @@ import Footer from '../Footer'
 function Home() {
   return (
     <>
-      <HeroSection />
+      <LandingPage />
       {/* <Cards /> */}
       <Footer />
     </>

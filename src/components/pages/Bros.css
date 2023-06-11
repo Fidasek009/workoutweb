@@ -1,0 +1,13 @@
+.bros {
+    background-color: #ffffff;
+    background-image: url("/public/images/diagmonds.png");
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.bros-list {
+    list-style: none;
+    margin: auto;
+}

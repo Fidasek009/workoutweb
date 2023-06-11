@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className='footer-container'>
-        <section className='footer-subscription'>
+        {/* <section className='footer-subscription'>
             <p className='footer-subscription-heading'>
                 Join the Adventure newsletter to receive our best vacation deals
             </p>
@@ -44,24 +44,27 @@ function Footer() {
                     <Link to='/how-to'>How it works</Link>
                 </div>
             </div>
-        </div>
+        </div> */}
         <section className="social-media">
             <div className="social-media-wrap">
                 <div className="footer-logo">
-                    <Link to='/' className="social-logo">
-                        TRVL <i className="fab fa-typo3"></i>
+                    <Link to='https://www.instagram.com/explore/tags/broworkoutchallenge/' className="social-logo">
+                        #BroWorkoutChallenge
                     </Link>
                 </div>
-                <small className="website-rights">TRVL © 2023</small>
+                <small className="website-rights">Fidasek009 © 2023</small>
                 <div className="social-icons">
-                    <Link className="social-icon-link facebook" to='/' target='_blank' aria-label='Facebook'>
-                        <i className="fab fa-facebook-f"></i>
+                    <Link className="social-icon-link" to='https://www.instagram.com/fida_krasa/' target='_blank' aria-label='Instagram'>
+                        <i class="fa-brands fa-instagram"/>
                     </Link>
-                    <Link className="social-icon-link twitter" to='/' target='_blank' aria-label='Twitter'>
-                        <i className="fab fa-twitter"></i>
+                    <Link className="social-icon-link" to='https://www.linkedin.com/in/filip-krasa/' target='_blank' aria-label='LinkedIn'>
+                        <i className="fab fa-linkedin"/>
                     </Link>
-                    <Link className="social-icon-link linkedin" to='/' target='_blank' aria-label='LinkedIn'>
-                        <i className="fab fa-linkedin"></i>
+                    <Link className="social-icon-link" to='https://www.instagram.com/fida_krasa/' target='_blank' aria-label='GitHub'>
+                        <i class="fa-brands fa-github"/>
+                    </Link>
+                    <Link className="social-icon-link" to='https://filipkrasa.kenolas.xyz' target='_blank' aria-label='Website'>
+                        <i class="fa-solid fa-globe"/>
                     </Link>
                 </div>
             </div>

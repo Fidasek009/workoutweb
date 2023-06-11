@@ -1,0 +1,35 @@
+.bro {
+    display: flex;
+    margin: auto;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    border-radius: 50px;
+    overflow: hidden;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 0 10px 10px #444;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 40px;
+}
+
+.bro:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.bro img {
+    height: 200px;
+}
+
+.bro a {
+    margin: auto;
+    padding: 20px;
+    font-size: 2vw;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+    .bro a {
+        font-size: 4vw;
+    }
+}

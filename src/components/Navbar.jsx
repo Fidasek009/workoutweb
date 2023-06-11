@@ -30,7 +30,7 @@ function Navbar() {
         <nav className="navbar">
           <div className="navbar-container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              WORKOUT CHALLENGES <i className="fa-solid fa-person-running"></i>
+              <img src="/logo.svg" height="48px" ></img> #BroWorkoutChallenge
             </Link>
             <div className="menu-icon" onClick={hancleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -48,15 +48,20 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link to="/bros" className="nav-links" onClick={closeMobileMenu}>
+                  Gym bros
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link to="/highlights" className="nav-links" onClick={closeMobileMenu}>
                   Highlights
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
                   Sign Up
                 </Link>
-              </li>
+              </li> */}
             </ul>
 
             {/* {button && <Button buttonStyle='btn--outline' href='/sign-up'>SIGN UP</Button>} */}
