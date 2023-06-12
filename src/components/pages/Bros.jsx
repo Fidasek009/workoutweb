@@ -9,6 +9,7 @@ function Bros() {
         <ul className='bros-list'>
           <Bro user="fida_krasa"/>
           <Bro user="jacob_yzol"/>
+          <Bro user="shad0w_dawee"/>
         </ul>
       </div>
     </>

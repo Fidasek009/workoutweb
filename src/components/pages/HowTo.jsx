@@ -11,13 +11,16 @@ export default function Howto() {
         <div className="howto-text">
           <h2>ANYONE CAN JOIN!</h2>
           <p>You're welcome no matter the gender.
-            We just want to promote exercise and hve fun while doing it.<br></br>
+            We just want to promote exercise and have fun while doing it.
+            If you are willing to try, we are on your side!<br></br>
             <br></br>
             <b>Some rules:</b>
             <ul>
               <li>In order to challenge others, you need to complete a challenge.</li>
               <li>You can only set 1 challenge per day.</li>
-              <li>Make the challenges possible for the average person.</li>
+              <li>Don't make the challenges impossible for others.</li>
+              <li>Failiure is also a success.</li>
+              <li>We don't tolerate hate.</li>
             </ul>
             <br></br>
             Follow these steps below. ↓↓↓↓↓↓↓↓↓↓</p>

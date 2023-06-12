@@ -41,6 +41,10 @@
     .howto-text p, .howto-text h3 {
         font-size: 20px;
     }
+
+    .howto-text ul {
+        margin-left: 35px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -62,5 +66,9 @@
     .howto-text p, .howto-text h3 {
         font-size: 15px;
         padding: 16px;
+    }
+
+    .howto-text ul {
+        margin-left: 25px;
     }
 }
