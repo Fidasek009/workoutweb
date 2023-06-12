@@ -33,3 +33,13 @@
         font-size: 4vw;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .bro img {
+        height: 100px;
+    }
+
+    .bro b {
+        font-size: 6vw;
+    }
+}

@@ -42,3 +42,25 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .howto-text h2 {
+        font-size: 32px;
+    }
+
+    .howto-text p, .howto-text h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .howto-text h2 {
+        font-size: 24px;
+        padding: 16px;
+    }
+    
+    .howto-text p, .howto-text h3 {
+        font-size: 15px;
+        padding: 16px;
+    }
+}

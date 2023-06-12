@@ -67,3 +67,12 @@ video {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .hero-container h1 {
+        font-size: 40px;
+    }
+    .hero-container p {
+        font-size: 18px;
+    }
+}
