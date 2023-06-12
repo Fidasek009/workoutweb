@@ -20,7 +20,7 @@
     height: 200px;
 }
 
-.bro a {
+.bro b {
     margin: auto;
     padding: 20px;
     font-size: 2vw;
@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 960px) {
-    .bro a {
+    .bro b {
         font-size: 4vw;
     }
 }
