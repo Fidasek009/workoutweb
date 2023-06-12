@@ -155,3 +155,6 @@ yarn-error.log*
 
 # vscode
 .vscode
+
+# nohup
+nohup.out
