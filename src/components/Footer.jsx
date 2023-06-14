@@ -60,7 +60,7 @@ function Footer() {
                     <Link className="social-icon-link" to='https://www.linkedin.com/in/filip-krasa/' target='_blank' aria-label='LinkedIn'>
                         <i className="fab fa-linkedin"/>
                     </Link>
-                    <Link className="social-icon-link" to='https://www.instagram.com/fida_krasa/' target='_blank' aria-label='GitHub'>
+                    <Link className="social-icon-link" to='https://github.com/Fidasek009' target='_blank' aria-label='GitHub'>
                         <i class="fa-brands fa-github"/>
                     </Link>
                     <Link className="social-icon-link" to='https://filipkrasa.kenolas.xyz' target='_blank' aria-label='Website'>
